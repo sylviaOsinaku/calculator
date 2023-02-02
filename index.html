@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div class="calculator">
+    <div class="calc_calc">
+      <div class="theme-switcher-div">
+        <h1>Calculator</h1>
+      </div>
+      <div class="calculator_display">0</div>
+      <div class="calculator_keys">
+        <button data-action="clear" class="btn">AC</button>
+        <button class="non-btn"><span>+</span><span>-</span></button>
+        <button class="btn" data-action="percent">%</button>
+        <button class="btn" data-action="divide">÷</button>
+        <button class="btn numbers one">1</button>
+        <button class="btn numbers one">2</button>
+        <button class="btn numbers one">3</button>
+        <button class="btn" data-action="multiply">&#215;</button>
+        <button class="btn numbers one">4</button>
+        <button class="btn numbers one">5</button>
+        <button class="btn numbers one">6</button>
+        <button class="operator btn" data-action="substract">-</button>
+        <button class="btn numbers one">7</button>
+        <button class="btn numbers one">8</button>
+        <button class="btn numbers one">9</button>
+        <button class="btn" data-action="addition">+</button>
+        <button class="btn numbers one btn--active">0</button>
+        <button class="btn" data-action="decimal">.</button>
+        <button class="btn" data-action="power">^</button>
+        <button class="btn equal--sign" data-action="calculate">=</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
